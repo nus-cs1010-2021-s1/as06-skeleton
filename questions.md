@@ -141,9 +141,10 @@ Your program should read, from the standard input,
 
 - a string S1, consists of k characters, chosen from `a` to `z`
 - a string S2, consists of n characters, chosen from `a` to `z`
+  (k <= n)
 
-and print, to the standard output, `YES` if S2 is a
-permutation of some substring of length k from S1, and `NO`
+and print, to the standard output, `YES` if S1 is a
+permutation of some substring of length k from S2, and `NO`
 otherwise.
 
 The grading criteria for this question is:
@@ -168,11 +169,11 @@ Note that `test.sh` does not check for efficiency.
 
 ```
 ooiwt@pe119:~/as06-skeleton$ ./permutation
-suntec
 nus
+suntec
 YES
 ooiwt@pe119:~/as06-skeleton$ ./permutation
-suntec
 smu
+suntec
 NO
 ```
